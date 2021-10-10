@@ -1,4 +1,4 @@
-package com.hathormobile;
+package com.detrash;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

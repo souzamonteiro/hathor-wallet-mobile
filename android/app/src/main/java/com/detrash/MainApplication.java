@@ -1,4 +1,4 @@
-package com.hathormobile;
+package com.detrash;
 
 import android.app.Application;
 

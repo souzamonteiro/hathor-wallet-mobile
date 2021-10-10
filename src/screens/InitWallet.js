@@ -53,20 +53,13 @@ class WelcomeScreen extends React.Component {
       <SafeAreaView style={{ flex: 1 }}>
         <HathorHeader withLogo />
         <View style={this.style.container}>
-          <Text style={this.style.title}>{t`Welcome to Hathor Wallet!`}</Text>
+          <Text style={this.style.title}>{t`Welcome to DeTrash Wallet!`}</Text>
           <View>
             <TextFmt style={this.style.text}>
-              {t`This wallet is connected to the **mainnet**.`}
+              {t`This is the official wallet for DeTrash Tokens.`}
             </TextFmt>
             <Text style={this.style.text}>
-              {t`A mobile wallet is not the safest place to store your tokens.
-              So, we advise you to keep only a small amount of tokens here, such as pocket money.`}
-            </Text>
-            <Text style={this.style.text}>
-              {str2jsx(
-                t`For further information, check out our website |link:https://hathor.network/|.`,
-                { link: (x, i) => <Link key={i} href='https://hathor.network/'>{x}</Link> }
-              )}
+              {t`Use it to manage your tokens and thus help cleaning the world one Kg of waste at a time.`}
             </Text>
           </View>
           <View style={this.style.switchView}>

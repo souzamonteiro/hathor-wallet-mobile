@@ -1904,13 +1904,13 @@
 				);
 				INFOPLIST_FILE = HathorMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 0.12.1;
+				MARKETING_VERSION = 0.1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = network.hathor.wallet;
+				PRODUCT_BUNDLE_IDENTIFIER = detrash.hathor.wallet;
 				PRODUCT_NAME = HathorMobile;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1948,7 +1948,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = network.hathor.wallet;
+				PRODUCT_BUNDLE_IDENTIFIER = detrash.hathor.wallet;
 				PRODUCT_NAME = HathorMobile;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

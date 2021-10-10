@@ -63,27 +63,16 @@ export class About extends React.Component {
           </TouchableWithoutFeedback>
           <Text style={this.style.text}>{`v${VersionNumber.appVersion} (build ${VersionNumber.buildVersion})`}</Text>
 
-          <Text style={this.style.title}>Hathor Labs</Text>
           <Text style={this.style.text}>
-            {t`This app is developed by Hathor Labs and is distributed for free.`}
+            {t`RECY is the official token of DeTrash.`}
           </Text>
 
           <TextFmt style={this.style.text}>
-            {t`This wallet is connected to the **mainnet**.`}
+            {t`Use it to manage your tokens and thus help cleaning the world one Kg of waste at a time.`}
           </TextFmt>
-          <Text style={this.style.text}>
-            {t`A mobile wallet is not the safest place to store your tokens.
-            So, we advise you to keep only a small amount of tokens here, such as pocket money.`}
-          </Text>
-          <Text style={this.style.text}>
-            {str2jsx(
-              t`For further information, check out our website |link:https://hathor.network/|.`,
-              { link: (x, i) => <Link key={i} href='https://hathor.network/'>{x}</Link> }
-            )}
-          </Text>
 
           <Text style={this.style.title}>MIT License</Text>
-          <Text style={this.style.text}>Copyright 2019 Hathor Labs</Text>
+          <Text style={this.style.text}>Copyright 2021 DeTras</Text>
           <Text style={this.style.text}>
             Permission is hereby granted, free of charge, to any person obtaining a copy of this
             {' '}software and associated documentation files (the &quot;Software&quot;), to deal in
