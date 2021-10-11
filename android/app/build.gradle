@@ -103,7 +103,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "network.hathor.wallet"
+        applicationId "com.detrash.wallet"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
