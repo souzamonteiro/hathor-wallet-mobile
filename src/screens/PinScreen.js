@@ -227,7 +227,7 @@ class PinScreen extends React.Component {
       <SafeAreaView style={{ flex: 1, alignItems: 'center', marginHorizontal: 16 }}>
         <View style={{ marginVertical: 16, alignItems: 'center', height: 21, width: 120 }}>
           <Logo
-            style={{ height: 21, width: 120 }}
+            style={{ height: 80, width: 300 }}
           />
         </View>
         <Text style={{ marginTop: 32, marginBottom: 16 }}>{this.screenText}</Text>

@@ -24,8 +24,12 @@ export class About extends React.Component {
       flexGrow: 1,
     },
     logoView: {
+      width: '100%',
       marginTop: 16,
       marginBottom: 16,
+    },
+    logo: {
+      width: '100%',
     },
   }));
 
@@ -57,9 +61,11 @@ export class About extends React.Component {
         />
         <ScrollView pinchGestureEnabled={false} contentContainerStyle={this.style.view}>
           <TouchableWithoutFeedback onPress={this.onPressLogo}>
-            <View style={this.props.logoView}>
-              <Logo />
-            </View>
+          <View style={this.style.logoView}>
+            <Logo
+              style={this.style.logo}
+            />
+          </View>
           </TouchableWithoutFeedback>
           <Text style={this.style.text}>{`v${VersionNumber.appVersion} (build ${VersionNumber.buildVersion})`}</Text>
 
@@ -72,7 +78,7 @@ export class About extends React.Component {
           </TextFmt>
 
           <Text style={this.style.title}>MIT License</Text>
-          <Text style={this.style.text}>Copyright 2021 DeTras</Text>
+          <Text style={this.style.text}>Copyright 2021 DeTrash.</Text>
           <Text style={this.style.text}>
             Permission is hereby granted, free of charge, to any person obtaining a copy of this
             {' '}software and associated documentation files (the &quot;Software&quot;), to deal in

@@ -34,8 +34,8 @@ export class Security extends React.Component {
       justifyContent: 'space-between',
     },
     logo: {
-      height: 30,
-      width: 170,
+      height: 80,
+      width: 300,
     },
     logoView: {
       marginTop: 16,

@@ -49,7 +49,7 @@ const HathorHeader = (props) => {
     if (props.withLogo) {
       return (
         <Logo
-          style={{ height: 22, width: 100 }}
+          style={{ height: 40, width: 150}}
         />
       );
     }

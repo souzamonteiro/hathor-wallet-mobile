@@ -13,7 +13,7 @@ import logo from '../assets/images/logo.png';
 const Logo = (props) => (
   <Image
     source={logo}
-    style={[{ height: 30, width: 170 }, props.style]}
+    style={[{ height: 80, width: 300 }, props.style]}
     resizeMode='contain'
     {...props}
   />
